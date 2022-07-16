@@ -19,7 +19,7 @@ export function App() {
         <div className="App">
           <Header />
           <Routes>
-            <Route path="/" element={<Home />} /> 
+            <Route path="home" element={<Home />} /> 
             <Route path="cart" element={<Cart />} />     
             <Route path="auth" element={<Auth />} />    
             <Route path="contact" element={<Contact />} />

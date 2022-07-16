@@ -1,13 +1,14 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import "./Logo.scss";
 
 const Logo = () => (  
-  <a href="/" className="logo">
+  <NavLink className="logo" to="home">
     <div className="logo--img"/>
     <p className="logo--name">
       aloha friday
     </p>
-  </a>
+  </NavLink>
   );
 
 export default Logo;
