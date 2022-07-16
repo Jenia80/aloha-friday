@@ -1,0 +1,30 @@
+@import "../../utills/mixins.scss";
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  @include link;
+
+  &--img{
+    background-image: url('https://zoestoptips.com/wp-content/uploads/2017/07/a11c6d9faedda8ea2745d589bed6a6d2_best.jpg');
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+  }
+
+  &--name {
+    position: relative;
+    display: none;
+
+    @include footerHeadderLink;
+
+    @media (min-width:700px) {
+      display: block;
+    }
+  }
+}

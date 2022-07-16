@@ -1,0 +1,23 @@
+.auth-form {
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(157, 244, 247);
+  opacity: 70%;
+  box-sizing: border-box;
+  color: rgb(15, 75, 77);
+
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  &__subtitle {
+    color: rgb(52, 225, 231);
+  }
+
+  &__form {
+    max-width: 360px;
+  }
+}

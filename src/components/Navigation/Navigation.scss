@@ -1,0 +1,24 @@
+@import "../../utills/mixins.scss";
+
+.navigation {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
+  padding: 10px;
+  
+  &__link{
+    @include link;
+    @include footerHeadderLink;
+  }
+}
+
+.navigation__link{
+  @include link;
+  @include footerHeadderLink;
+}
+
+.active {
+  color: rgb(237, 141, 157);
+  font-size: 22px;
+}

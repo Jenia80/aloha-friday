@@ -1,0 +1,40 @@
+.cart-menu {
+  position: absolute;
+  right: -20px;
+  top: 30px;
+  border-radius: 6px;
+  background-color: rgb(61, 103, 105);
+  color: white;
+  overflow: auto;
+
+  width: 300px;
+  max-height: 600px;
+  scroll-behavior: smooth;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px;
+
+  &__list { 
+    text-align: left;
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    
+
+    &:after {
+      content: "";
+      position: absolute;
+      width: 80%;
+      height: 2px;
+      border-radius: 8px;
+      background-color: rgb(230, 248, 248);
+    }
+
+    &--el {
+      margin-bottom: 15px;
+      font-size: 12px;
+    }
+  }
+  
+}

@@ -1,0 +1,29 @@
+@import "../../../src/utills/mixins.scss";
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  text-align: center;
+  gap: 10px;
+  padding-bottom: 20px;
+
+  &__link {
+    @include link;
+    color: rgb(213, 248, 250);
+    background-color: rgb(109, 180, 183);
+    border-radius: 50%;
+    display: block;
+    width: 20px;
+    height: 20px;
+
+    &:hover {
+      color: rgb(58, 97, 99);
+
+    }
+
+    &:active {
+      color: rgb(11, 19, 19);
+    }
+  }
+}

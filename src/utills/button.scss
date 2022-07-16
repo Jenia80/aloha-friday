@@ -1,0 +1,29 @@
+.button {
+  color: cadetblue;
+  border: 1px solid cadetblue;
+  border-radius: 6px;
+  width: 200px;
+  height: 40px;
+  padding: auto;
+
+  &:hover {
+    color: rgb(60, 110, 112);
+    border: 1px solid rgb(60, 110, 112); 
+    box-shadow: 10px 5px 5px rgb(91, 177, 180);
+  }
+
+  &:active {
+    color: rgb(83, 150, 152);
+    border: 1px solid rgb(93, 167, 169); 
+    box-shadow: 5px 10px 10px rgb(91, 177, 180);
+  }
+
+  &__cart {
+    margin: 20px;
+  }
+
+  &__cart-item {
+    width: 100px;
+    height: 30px;
+  }
+}

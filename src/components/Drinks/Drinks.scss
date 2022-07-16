@@ -1,0 +1,56 @@
+@import "../../utills/mixins.scss";
+
+.drinks{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+
+  &__drink-card{
+    margin: 20px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: aliceblue;
+    align-items: center;
+    max-width: 350px;
+    padding-bottom: 20px;
+
+    &--img{
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      display: block;
+      overflow: hidden;
+
+      &--pic {
+        height: 75%;
+        box-sizing: border-box;
+      }
+    }
+  
+    &--name{
+      size: 50px;
+      color: cadetblue;
+      font-weight: bolder;
+  
+    }
+
+    &--link {
+      @include link;
+
+      color: cadetblue;
+
+      &:hover {
+        color: rgb(58, 97, 99);
+        font-weight: 500;
+      }
+
+      &:active {
+        color: rgb(11, 19, 19);
+      }
+    }
+
+  }
+}
