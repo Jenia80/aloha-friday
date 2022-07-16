@@ -16,14 +16,14 @@ const Pagination = ({drinksPerPage,totalDrinks, paginate,prevPage,nextPage}) => 
       >
         {'<-'}
       </a>
-     
+
       {pageNumbers.map(number => (
          <a href="!#" key={number} className="pagination__link" onClick={() => paginate(number)}>
            {number}
          </a>
-  
+
         ))}
-      
+
       <a 
         href="!#" 
         onClick={() => nextPage()}
@@ -35,4 +35,4 @@ const Pagination = ({drinksPerPage,totalDrinks, paginate,prevPage,nextPage}) => 
   )
 }
 
-export default Pagination
+export default Pagination;

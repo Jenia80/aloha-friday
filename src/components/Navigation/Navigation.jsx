@@ -6,7 +6,7 @@ import "./Navigation.scss";
 const Navigation = () => (
     <nav className="navigation">
       <NavLink className="navigation__link" to="contact">Contact</NavLink>
-      <NavLink className="navigation__link" to="auth">LogIn</NavLink>
+      <NavLink className="navigation__link" to="auth">Login</NavLink>
       <Shop />
     </nav>
 );
