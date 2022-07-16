@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/aloha-friday/static/css/main.e04a15d2.css",
-    "main.js": "/aloha-friday/static/js/main.fa921d91.js",
-    "static/js/787.28cb0dcd.chunk.js": "/aloha-friday/static/js/787.28cb0dcd.chunk.js",
+    "main.css": "/aloha-friday/static/css/main.bbea4f63.css",
+    "main.js": "/aloha-friday/static/js/main.0fffd3ff.js",
     "static/media/roboto-all-500-normal.woff": "/aloha-friday/static/media/roboto-all-500-normal.0ab669b7a0d19b178f57.woff",
     "static/media/roboto-all-700-normal.woff": "/aloha-friday/static/media/roboto-all-700-normal.a457fde362a540fcadff.woff",
     "static/media/roboto-all-400-normal.woff": "/aloha-friday/static/media/roboto-all-400-normal.c5d001fa922fa66a147f.woff",
@@ -38,12 +37,11 @@
     "static/media/shop-hover.svg": "/aloha-friday/static/media/shop-hover.3e8a116f9997a8953850.svg",
     "static/media/shop.svg": "/aloha-friday/static/media/shop.5a7180b0ed4cd373a12c.svg",
     "index.html": "/aloha-friday/index.html",
-    "main.e04a15d2.css.map": "/aloha-friday/static/css/main.e04a15d2.css.map",
-    "main.fa921d91.js.map": "/aloha-friday/static/js/main.fa921d91.js.map",
-    "787.28cb0dcd.chunk.js.map": "/aloha-friday/static/js/787.28cb0dcd.chunk.js.map"
+    "main.bbea4f63.css.map": "/aloha-friday/static/css/main.bbea4f63.css.map",
+    "main.0fffd3ff.js.map": "/aloha-friday/static/js/main.0fffd3ff.js.map"
   },
   "entrypoints": [
-    "static/css/main.e04a15d2.css",
-    "static/js/main.fa921d91.js"
+    "static/css/main.bbea4f63.css",
+    "static/js/main.0fffd3ff.js"
   ]
 }
