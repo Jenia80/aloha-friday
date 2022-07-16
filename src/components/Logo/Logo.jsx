@@ -2,7 +2,7 @@ import React from 'react';
 import "./Logo.scss";
 
 const Logo = () => (  
-  <a href="home" className="logo">
+  <a href="/" className="logo">
     <div className="logo--img"/>
     <p className="logo--name">
       aloha friday
